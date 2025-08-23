@@ -15,7 +15,7 @@ The model is built on a fine-tuned ResNet-50 architecture, trained and evaluated
 
 You can explore the full pipeline and dataset engineering logic in the following repositories:
 - [Dataset Curation & Augmentation Scripts](https://github.com/yourusername/counterfeit-dataset-tools)
-- [GenAI Counterfeit Drug Image Generation Script](https://github.com/yourusername/counterfeit-dataset-tools)
+- [GenAI Counterfeit Drug Image Generation Script](https://github.com/arabomeivan/CounterFeitDrugImageGenerator)
 - [Deployment & Integration (React Native)](https://github.com/yourusername/fractionnine-app)
 
 This project was designed with deployment in mind — from mobile-first integration to QA-driven evaluation — and has already supported UK-based clients in launching secure platforms for company registration and pharmaceutical verification.
