@@ -25,7 +25,7 @@ This project was designed with deployment in mind — from mobile-first integrat
 - Base Model: ResNet-50 (pretrained on ImageNet)
 - Fine-Tuning: Last few layers retrained on domain-specific dataset
 - Input: RGB images of drug packaging and pills
-- Output: Binary classification — Authentic vs Counterfeit
+- Output: Multi classification — Authentic, Counterfeit, Non-Medication
 
 ## Dataset Pipeline
 
@@ -42,7 +42,6 @@ This project was designed with deployment in mind — from mobile-first integrat
 
 - Accuracy, Precision, Recall, F1-Score
 - Confusion Matrix Analysis
-- ROC-AUC Curve
 
 ## Tools & Frameworks
 
