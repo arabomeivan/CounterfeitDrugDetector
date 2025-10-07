@@ -11,18 +11,17 @@ To address class imbalance, I engineered synthetic datasets using a combination 
 - GenAI, and Augmentations  + OCR for realistic counterfeit image generation
 - Custom scripts for stratified splitting and reproducible preprocessing
 
-The model is built on a fine-tuned ResNet-50 architecture, trained and evaluated across these datasets to benchmark performance under varying distribution conditions. Evaluation metrics include precision, recall, F1-score, and ROC-AUC, with confusion matrix analysis to assess misclassification risks in healthcare contexts.
+The model is built on a fine-tuned ResNet-50 architecture, trained and evaluated across these datasets to benchmark performance under varying distribution conditions. Evaluation metrics include precision, recall, F1-score, with confusion matrix analysis to assess misclassification risks in healthcare contexts.
 
 You can explore the full pipeline and dataset engineering logic in the following repositories:
 - [Dataset Curation & Augmentation Scripts](https://github.com/yourusername/counterfeit-dataset-tools)
 - [GenAI Counterfeit Drug Image Generation Script](https://github.com/arabomeivan/CounterFeitDrugImageGenerator)
 - [Deployment & Integration (React Native)](https://github.com/yourusername/fractionnine-app)
 
-This project was designed with deployment in mind — from mobile-first integration to QA-driven evaluation — and has already supported UK-based clients in launching secure platforms for company registration and pharmaceutical verification.
-
+This project was designed with deployment in mind — from mobile-first integration to QA-driven evaluation
 ## Model Architecture
 
-- Base Model: ResNet-50 (pretrained on ImageNet)
+- Base Model: ResNet-101 (pretrained on ImageNet)
 - Fine-Tuning: Last few layers retrained on domain-specific dataset
 - Input: RGB images of drug packaging and pills
 - Output: Multi classification — Authentic, Counterfeit, Non-Medication
@@ -65,7 +64,7 @@ This project was designed with deployment in mind — from mobile-first integrat
 
 ## Future Work
 
-- Explore other techniwques to pattern recognition
+- Explore other techniques to pattern recognition
 - Integrate blockchain-based record logging for traceability
 - Explore transformer-based vision models (e.g., ViT, SAM)
 
